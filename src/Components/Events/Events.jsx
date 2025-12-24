@@ -11,7 +11,7 @@ import rgw from "../../Assets/Images/Research Guidance Webinar Photos/RGW.jpg"
 import ct from "../../Assets/Images/Campus Tour Photos/CampusTour.png"
 import sa101 from "../../Assets/Images/Study Abroad 101 Photos/SA101.jpg"
 import playstorelogo from "../../Assets/Images/Logos/playstore.png"
- 
+
 const Events = () => {
   const [activeFilter, setActiveFilter] = useState('all');
 
@@ -25,11 +25,10 @@ const Events = () => {
     },
     {
       id: 2,
-      category: 'career',
-      title: 'FORESIGHT',
-      description: 'A blog-based initiative that gives all the guidance that a student needs to crack their dream internship. The blogs are published based on articles submitted by students of IIT Kharagpur who have already completed internships through CDC.',
-      image: foresight,
-      link: 'https://swgiitkgp.org/placementblogs',
+      category: 'academic',
+      title: 'Study Abroad 101',
+      description: 'An offline event where panellists guide about higher education opportunities abroad and how to crack various examinations.',
+      image: sa101,
     },
     {
       id: 3,
@@ -82,15 +81,16 @@ const Events = () => {
     },
     {
       id: 10,
-      category: 'academic',
-      title: 'Study Abroad 101',
-      description: 'An offline event where panellists guide about higher education opportunities abroad and how to crack various examinations.',
-      image: sa101,
+      category: 'career',
+      title: 'FORESIGHT',
+      description: 'A blog-based initiative that gives all the guidance that a student needs to crack their dream internship. The blogs are published based on articles submitted by students of IIT Kharagpur who have already completed internships through CDC.',
+      image: foresight,
+      link: 'https://swgiitkgp.org/placementblogs',
     },
   ];
 
-  const filteredEvents = activeFilter === 'all' 
-    ? events 
+  const filteredEvents = activeFilter === 'all'
+    ? events
     : events.filter(event => event.category === activeFilter);
 
   const scrollToEvents = () => {
@@ -114,25 +114,25 @@ const Events = () => {
 
       <section id="events-section" className="events-section">
         <div className="filter-tabs">
-          <button 
+          <button
             className={`filter-tab ${activeFilter === 'all' ? 'active' : ''}`}
             onClick={() => setActiveFilter('all')}
           >
             All Events
           </button>
-          <button 
+          <button
             className={`filter-tab ${activeFilter === 'career' ? 'active' : ''}`}
             onClick={() => setActiveFilter('career')}
           >
             Career
           </button>
-          <button 
+          <button
             className={`filter-tab ${activeFilter === 'academic' ? 'active' : ''}`}
             onClick={() => setActiveFilter('academic')}
           >
             Academic
           </button>
-          <button 
+          <button
             className={`filter-tab ${activeFilter === 'welfare' ? 'active' : ''}`}
             onClick={() => setActiveFilter('welfare')}
           >
