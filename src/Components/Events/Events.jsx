@@ -156,11 +156,11 @@ const Events = () => {
           Stay connected with all SWG events, resources, and updates right from your phone.
         </p>
         <div className="app-buttons">
-          <a href="https://www.apple.com/in/app-store/" className="app-button-link">
+          {/* <a href="https://www.apple.com/in/app-store/" className="app-button-link">
             <button className="app-button">
               <img src="/src/Assets/Images/Logos/apple.png" alt="Apple Logo" /> App Store
             </button>
-          </a>
+          </a> */}
           <a href="https://play.google.com/store/apps?hl=en_IN&pli=1" className="app-button-link">
             <button className="app-button">
               <img src="/src/Assets/Images/Logos/playstore.png" alt="Google Playstore Logo" /> Play Store
