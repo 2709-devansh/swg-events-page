@@ -11,7 +11,7 @@ const Events = () => {
       category: 'welfare',
       title: 'Student Mentorship Program',
       description: 'An important initiative to connect seniors with freshers and mentor them throughout their first year journey, and further as a guide and support.',
-      image: {SMP},
+      image: SMP,
     },
     {
       id: 2,
