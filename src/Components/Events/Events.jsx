@@ -60,7 +60,7 @@ const Events = () => {
     },
     {
       id: 7,
-      category: 'academic',
+      category: 'welfare',
       title: 'English Language Assessment Test',
       description: 'An offline initiative conducted to improve the English Language, which is useful for various careers.',
       image: elat,
