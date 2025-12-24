@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Events.css';
+import SMP from "../../Assets/Images/SMP/SMP.jpeg"
 
 const Events = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -10,7 +11,7 @@ const Events = () => {
       category: 'welfare',
       title: 'Student Mentorship Program',
       description: 'An important initiative to connect seniors with freshers and mentor them throughout their first year journey, and further as a guide and support.',
-      image: '/src/Assets/Images/SMP/SMP.jpeg',
+      image: {SMP},
     },
     {
       id: 2,
