@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
 import './Events.css';
-import SMP from "../../Assets/Images/SMP/SMP.jpeg"
-
+import smp from "../../Assets/Images/SMP/SMP.jpeg"
+import foresight from "../../Assets/Images/Foresight Photos/Foresight.png"
+import oct from "../../Assets/Images/Off Campus Talks Photos/OffCampus.jpg"
+import examania from "../../Assets/Images/Examania Photos/Examania.jpg"
+import cos from "../../Assets/Images/Career Orientation Session Photos/COS.jpg"
+import pds from "../../Assets/Images/PDS Doubt Session Photos/PDS.jpg"
+import elat from "../../Assets/Images/ELAT Photos/ELAT.png"
+import rgw from "../../Assets/Images/Research Guidance Webinar Photos/RGW.jpg"
+import ct from "../../Assets/Images/Campus Tour Photos/CampusTour.png"
+import sa101 from "../../Assets/Images/Study Abroad 101 Photos/SA101.jpg"
+ 
 const Events = () => {
   const [activeFilter, setActiveFilter] = useState('all');
 
@@ -11,7 +20,7 @@ const Events = () => {
       category: 'welfare',
       title: 'Student Mentorship Program',
       description: 'An important initiative to connect seniors with freshers and mentor them throughout their first year journey, and further as a guide and support.',
-      image: SMP,
+      image: smp,
     },
     {
       id: 2,
@@ -19,63 +28,63 @@ const Events = () => {
       title: 'FORESIGHT',
       description: 'A blog-based initiative that gives all the guidance that a student needs to crack their dream internship. The blogs are published based on articles submitted by students of IIT Kharagpur who have already completed internships through CDC.',
       image: '../../Assets/Images/Foresight Photos/Foresight.png',
-      link: 'https://swgiitkgp.org/placementblogs',
+      link: foresight,
     },
     {
       id: 3,
       category: 'career',
       title: 'Off-Campus Talks',
       description: 'An offline session conducted to resolve all the doubts regarding the off-campus internship and placement opportunities.',
-      image: '/src/Assets/Images/Off Campus Talks Photos/OffCampus.jpg',
+      image: oct,
     },
     {
       id: 4,
       category: 'academic',
       title: 'Examania',
       description: 'An offline event conducted before mid-semester exams to guide the freshers. We provide students with essential resources, study materials, and links to past exam papers to help them succeed in mid-semester exams.',
-      image: '/src/Assets/Images/Examania Photos/Examania.jpg',
+      image: examania,
     },
     {
       id: 5,
       category: 'career',
       title: 'Career Orientation Session',
       description: 'Access curated study materials, previous year question papers, and preparation strategies for your semester exams. Our Exam Prep resources are designed to help you excel in your academics with minimal stress.',
-      image: '/src/Assets/Images/Career Orientation Session Photos/COS.jpg',
+      image: cos,
     },
     {
       id: 6,
       category: 'academic',
       title: 'PDS Doubt Session',
       description: 'An offline initiative conducted to improve the skills in Programming and Data Structures for first years and get guidance from seniors regarding the grade in PDS and coding skills.',
-      image: '/src/Assets/Images/PDS Doubt Session Photos/PDS.jpg',
+      image: pds,
     },
     {
       id: 7,
       category: 'academic',
       title: 'English Language Assessment Test',
       description: 'An offline initiative conducted to improve the English Language, which is useful for various careers.',
-      image: '/src/Assets/Images/ELAT Photos/ELAT.png',
+      image: elat,
     },
     {
       id: 8,
       category: 'career',
       title: 'Research Guidance Webinar',
       description: 'An online session where panellists give insights about various research opportunities.',
-      image: '/src/Assets/Images/Research Guidance Webinar Photos/RGW.jpg',
+      image: rgw,
     },
     {
       id: 9,
       category: 'welfare',
       title: 'Campus Tour',
       description: 'An offline event for freshers to show them around the campus and learn stories about important places.',
-      image: '/src/Assets/Images/Campus Tour Photos/CampusTour.png',
+      image: ct,
     },
     {
       id: 10,
       category: 'academic',
       title: 'Study Abroad 101',
       description: 'An offline event where panellists guide about higher education opportunities abroad and how to crack various examinations.',
-      image: '/src/Assets/Images/Study Abroad 101 Photos/SA101.jpg',
+      image: sa101,
     },
   ];
 
