@@ -161,7 +161,7 @@ const Events = () => {
               <img src="/src/Assets/Images/Logos/apple.png" alt="Apple Logo" /> App Store
             </button>
           </a> */}
-          <a href="https://play.google.com/store/apps?hl=en_IN&pli=1" className="app-button-link">
+          <a href="https://play.google.com/store/apps/details?id=com.swg.swg_app" className="app-button-link">
             <button className="app-button">
               <img src="/src/Assets/Images/Logos/playstore.png" alt="Google Playstore Logo" /> Play Store
             </button>
