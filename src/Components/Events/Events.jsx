@@ -10,6 +10,7 @@ import elat from "../../Assets/Images/ELAT Photos/ELAT.png"
 import rgw from "../../Assets/Images/Research Guidance Webinar Photos/RGW.jpg"
 import ct from "../../Assets/Images/Campus Tour Photos/CampusTour.png"
 import sa101 from "../../Assets/Images/Study Abroad 101 Photos/SA101.jpg"
+import playstorelogo from "../../Assets/Images/Logos/playstore.png"
  
 const Events = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -173,7 +174,7 @@ const Events = () => {
           </a> */}
           <a href="https://play.google.com/store/apps/details?id=com.swg.swg_app" className="app-button-link">
             <button className="app-button">
-              <img src="/src/Assets/Images/Logos/playstore.png" alt="Google Playstore Logo" /> Play Store
+              <img src={playstorelogo} alt="Google Playstore Logo" /> Play Store
             </button>
           </a>
         </div>
