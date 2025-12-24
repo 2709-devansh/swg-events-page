@@ -83,7 +83,7 @@ const Events = () => {
       id: 10,
       category: 'career',
       title: 'FORESIGHT',
-      description: 'A blog-based initiative that gives all the guidance that a student needs to crack their dream internship. The blogs are published based on articles submitted by students of IIT Kharagpur who have already completed internships through CDC.',
+      description: 'A blog-based initiative that provides all the strategic guidance students need to crack their dream internships and placements. The blogs are published based on articles submitted by IIT Kharagpur students who have successfully completed internships or secured full-time job offers through CDC.',
       image: foresight,
       link: 'https://swgiitkgp.org/placementblogs',
     },
